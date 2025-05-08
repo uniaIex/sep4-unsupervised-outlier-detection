@@ -1,4 +1,4 @@
-
+for some reason the virtual environment is ignored by git, therefore you will need to pip install the libraries yourself
 
 files and their responsability
 
