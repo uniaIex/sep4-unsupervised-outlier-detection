@@ -489,7 +489,7 @@ def main():
     print("=" * 60)
     
     # File path
-    file_path = "data-preview-ted.csv"  # Update with actual file path
+    file_path = "2020_utf8_data.csv"  # Update with actual file path
     
     # Load and preprocess data
     result = load_and_preprocess_data(file_path)

@@ -26,3 +26,22 @@ Usage of isolation_forest_predict.py
     python procurement_outlier_detection_usage.py --record VALUE_EURO=5000000 CPV=45000000 CRIT_PRICE_WEIGHT=60
     ```
     Outcome is available within the console and results.csv
+
+
+
+
+
+
+
+
+
+
+
+# Process a CSV file (basic usage)
+python improved_isolation_forest_predict.py --csv your_input.csv your_output.csv
+
+# Process a CSV file with custom model file
+python improved_isolation_forest_predict.py --csv your_input.csv your_output.csv your_model.pkl
+
+# Process a single record
+python improved_isolation_forest_predict.py --record feature1=value1 feature2=value2
